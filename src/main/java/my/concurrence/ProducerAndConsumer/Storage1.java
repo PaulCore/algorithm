@@ -7,7 +7,7 @@ import java.util.Queue;
  * Created by paul on 2015/7/9.
  * use synchronized wait notify
  */
-public class Storage1 {
+public class Storage1 implements Storage {
     private int capacity;
     private Queue queue ;
     public Storage1(int capacity) {
