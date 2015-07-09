@@ -2,6 +2,9 @@ package my.concurrence;
 
 /**
  * Created by paul on 2015/7/2.
+ * ThreadLocal是解决多线程共享变量的一种方式
+ * 其主要思想是在每个线程中生成一个变量副本，
+ * 该副本由线程自身维持，各线程间相互隔离。
  */
 public class ThreadLocalTest {
     ThreadLocal<Long> longLocal = new ThreadLocal<Long>();
