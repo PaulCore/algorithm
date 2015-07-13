@@ -1,4 +1,4 @@
-package my.desginPatten.proxy;
+package my.designPatten.proxy;
 
 /**
  * Created by paul on 2015/7/9.
